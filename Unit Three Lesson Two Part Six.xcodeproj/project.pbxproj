@@ -13,6 +13,7 @@
 		077B0F7F1AC1919400E11607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077B0F7E1AC1919400E11607 /* Images.xcassets */; };
 		077B0F821AC1919400E11607 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077B0F801AC1919400E11607 /* LaunchScreen.xib */; };
 		077B0F8E1AC1919400E11607 /* Unit_Three_Lesson_Two_Part_SixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B0F8D1AC1919400E11607 /* Unit_Three_Lesson_Two_Part_SixTests.swift */; };
+		077B0F981AC1994F00E11607 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B0F971AC1994F00E11607 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		077B0F871AC1919400E11607 /* Unit Three Lesson Two Part SixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Three Lesson Two Part SixTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		077B0F8C1AC1919400E11607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077B0F8D1AC1919400E11607 /* Unit_Three_Lesson_Two_Part_SixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Three_Lesson_Two_Part_SixTests.swift; sourceTree = "<group>"; };
+		077B0F971AC1994F00E11607 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				077B0F7E1AC1919400E11607 /* Images.xcassets */,
 				077B0F801AC1919400E11607 /* LaunchScreen.xib */,
 				077B0F751AC1919300E11607 /* Supporting Files */,
+				077B0F971AC1994F00E11607 /* SettingsViewController.swift */,
 			);
 			path = "Unit Three Lesson Two Part Six";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				077B0F7A1AC1919400E11607 /* ViewController.swift in Sources */,
 				077B0F781AC1919400E11607 /* AppDelegate.swift in Sources */,
+				077B0F981AC1994F00E11607 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				077B0F931AC1919400E11607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		077B0F941AC1919400E11607 /* Build configuration list for PBXNativeTarget "Unit Three Lesson Two Part SixTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				077B0F961AC1919400E11607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
